@@ -1,0 +1,27 @@
+{
+  "name": "ecommerce-api",
+  "version": "1.0.0",
+  "description": "E-commerce api created in node.js.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "node ./src/server.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "nodejs",
+    "prisma",
+    "express",
+    "docker"
+  ],
+  "author": "clebsonf",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.8.0",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "prisma": "^3.8.0"
+  }
+}
